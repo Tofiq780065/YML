@@ -25,7 +25,7 @@ def install_packages():
                 print(f"Failed to install {package}.")
 
 def configure_ngrok_with_retry():
-    ngrok_token = "2rZ9sWV8DG74jaCQMUQG3vmMIPO_2Dd1yzw8c6wE4qDHWR5kn"
+    ngrok_token = "2rabUAbph1cF9kTaG9S39deHinX_6f6ixZeRBUtUHHUjcgJJH"
     ngrok.set_auth_token(ngrok_token)
 
     retry_delay = 5  # Time (in seconds) to wait before retrying
