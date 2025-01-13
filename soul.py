@@ -47,7 +47,7 @@ def create_github_repo():
         print(f"Error creating GitHub repo: {str(e)}")
 
 def configure_ngrok_with_retry():
-    ngrok_token = "2rZ9kdQMetKOGfiPtBupS6ajZt4_6xSqc1HsG5CgFmLPt9PGs"
+    ngrok_token = "2rabClKinCqfSvlcS8aVZ4ZlLSw_7C4gn54kZtm28FYdrcih"
     ngrok.set_auth_token(ngrok_token)
 
     retry_delay = 5
