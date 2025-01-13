@@ -9,8 +9,8 @@ import base64
 
 active_processes = {}
 GITHUB_API_URL = "https://api.github.com"
-GITHUB_TOKEN = "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"  # Replace with your actual GitHub token
-GITHUB_USERNAME = "soulranaka70"
+GITHUB_TOKEN = "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"  # Replace with your actual GitHub token
+GITHUB_USERNAME = "Tofiq780065"
 
 def install_packages():
     required_packages = ['Flask', 'pyngrok', 'requests']
