@@ -9,7 +9,7 @@ import base64
 
 active_processes = {}
 GITHUB_API_URL = "https://api.github.com"
-GITHUB_TOKEN = "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"  # Replace with your actual GitHub token
+GITHUB_TOKEN = "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"  # Replace with your actual GitHub token
 GITHUB_USERNAME = "Tofiq780065"
 
 def install_packages():
